@@ -26,6 +26,8 @@ class stack:
         self._box = []
     def size_of_stack(self):
         return len(self._box)
+    def is_empty(self):
+        return len(self._box) == 0
     
     
 class queue:
@@ -47,6 +49,8 @@ class queue:
         self._box = []
     def size_of_stack(self):
         return len(self._box)
+    def is_empty(self):
+        return len(self._box) == 0
 
 
 class binary_tree_node:
